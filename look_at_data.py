@@ -8,7 +8,7 @@ from types import SimpleNamespace
 from src.dict2hdf5 import h5_to_dict
 
 # Load configuration
-from config import *
+from config import PATH_DATA
 
 
 # Define plot function

@@ -9,7 +9,7 @@ from src.dict2hdf5 import h5_to_dict
 from src.load_data import load_data
 
 # Load configuration
-from config import *
+from config import PATH_DATA
 
 
 ### Define load functions ###

@@ -12,7 +12,7 @@ from src.dict2hdf5 import dict_to_h5, h5_to_dict
 from src.load_data import load_data
 
 # Load configuration
-from config import *
+from config import PATH_DATA
 
 # Find states
 def find_states(data, parameters, parallelize=True, verbose=False, plot=False, **kwargs):

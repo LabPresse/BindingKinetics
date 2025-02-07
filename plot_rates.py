@@ -10,10 +10,10 @@ from src.PlotData import plot_data
 from src.PlotRates import plot_rates
 from src.PlotConvergence import plot_convergence
 from src.LearnRates import RateInference
-from cleandata import EXPERIMENT_PARAMETERS
+from .cleandata import EXPERIMENT_PARAMETERS
 
 # Load configuration
-from config import *
+from config import PATH_DATA
 
 # Define plot function
 def plot(file, saveas=None, convergence=False, states=False):

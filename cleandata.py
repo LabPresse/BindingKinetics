@@ -8,8 +8,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from src.dict2hdf5 import dict_to_h5, h5_to_dict
 
+# Load configuration
+from config import PATH_DATA
+
 # Set up path
-path = f'{os.environ["DATAPATH"]}/Binding/Raw/Results_corrected_new'
+path = os.path.join(PATH_DATA, "Binding/Raw/Results_corrected_new")
 
 EXPERIMENT_PARAMETERS = {
     # Shared_Presse_Herten\ST089_230114_Buffers_on_photophysics and Shared_Presse_Herten\ST089_Buffers_on_photophysics- Bleaching and blinking kinetics recorded at different framerates.

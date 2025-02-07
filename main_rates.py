@@ -9,7 +9,7 @@ from src.LearnRates import RateInference
 from src.dict2hdf5 import dict_to_h5, h5_to_dict
 
 # Load configuration
-from config import *
+from config import PATH_DATA
 
 # Preprocess data
 def preprocess(data, parameters, concentration=None, downsample=None, min_step=1, **kwargs):
