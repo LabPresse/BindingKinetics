@@ -169,3 +169,18 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+##############
+### Custom ###
+
+# Ignore data
+data/*
+!data/.gitkeep
+
+# Ignore outfiles
+outfiles/*
+!outfiles/.gitkeep
+
+# Ignore pics
+pics/*
+!pics/.gitkeep
